@@ -1,0 +1,54 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'montserrat', sans-serif;
+	background-image: url(startup.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.container{
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+h1 {
+	text-align: center;
+	color: #F5E6CC;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+}
+
+.buffer{
+	height: 10rem;
+}
+
+.border {
+	background-color: 5px dashed orange;
+	width: 10%;
+	margin-bottom: 5px;
+}
+
+.btn {
+	padding: 10px 20px;
+	background-color: #ff8c00;
+	color: #ff8coo;
+	border: none;
+	padding: 1em;
+	border-radius: 300px;
+	text-transform: uppercase;
+	transition: bottom .3s cubic-bezier(.5,2.5,.7,.7);
+}
+
+.btn:hover {
+	background-color: pink;
+	border-width: 4px;
+
+}
